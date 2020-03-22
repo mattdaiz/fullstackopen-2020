@@ -1,0 +1,17 @@
+title 0.6 - New note
+
+User->Browser: User saves entry on loaded single page app
+
+note over Browser:
+Javascript fetches form-element 
+and creates event handler on this element
+end note
+
+note over Browser:
+Event handler creates new note and adds it to notes list
+on the page and sends the new note to the server
+end note
+
+Browser->Server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+
+
